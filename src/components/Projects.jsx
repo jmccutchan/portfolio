@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Projects = () => {
   return (
@@ -7,10 +8,10 @@ const Projects = () => {
             Projects
         </h2>
         <div className='grid md:grid-cols-2 gap-4 mt-4'>
-            <div className='p-4 bg-blue-900 rounded'>Project 1</div>
-            <div className='p-4 bg-blue-900 rounded'>Project 2</div>
+            <div className='p-4 bg-blue-900 rounded'><Link href="https://next-jobs-nu.vercel.app/">Next Jobs</Link></div>
+            {/* <div className='p-4 bg-blue-900 rounded'>Project 2</div>
             <div className='p-4 bg-blue-900 rounded'>Project 3</div>
-            <div className='p-4 bg-blue-900 rounded'>Project 4</div>
+            <div className='p-4 bg-blue-900 rounded'>Project 4</div> */}
         </div>
     </section>
   )
