@@ -7,14 +7,9 @@ const Experience = () => {
         Work Experience
     </h2>
     <p className='mt-4 text-xl'>
-        Frontend Developer at Alphabet Inc. (2020 - Present)
+        Freelance Developer at Upwork (2023 - Present)
     </p>
-    <p className='mt-4 text-xl'>
-        Full Stack Developer at Meta Inc. (2017 - 2020)
-    </p>
-    <p className='mt-4 text-xl'>
-        MERN Stack Intern at NVIDIA (2017 - 2017)
-    </p>
+   
     {/* <p className='mt-4'>
         Frontend Developer at Alphabet Inc. (2020 - Present)
     </p> */}
