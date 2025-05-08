@@ -7,7 +7,7 @@ const Contact = () => {
             Contact Me!
         </h2>
         <p className='mt-4'>
-            Email: james@cutch.works
+            Email: mccutchanjames@gmail.com
         </p>
     </section>
   )
